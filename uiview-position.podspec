@@ -29,7 +29,21 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*' , '*.{h,m}'
+
+    s.default_subspec = 'Obj'
+
+    s.subspec 'Obj' do |obj|
+    obj.source_files = 'Pod/Classes/*' , '*.{h,m}'
+    obj.exclude_files = 'Pod/Classes/Swift/*' , '*.swift'
+    end
+
+    s.subspec 'Swift' do |swift|
+    swift.ios.deployment_target = '8.0'
+    swift.source_files = 'Pod/Classes/Swift/*' , '*.swift'
+    swift.exclude_files = 'Pod/Classes/*' , '*.{h,m}'
+
+    end
+
   s.resource_bundles = {
     'uiview-position' => ['Pod/Assets/*.png']
   }

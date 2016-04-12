@@ -16,10 +16,33 @@
     "ios": "7.0"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
+  "default_subspecs": "Obj",
   "resource_bundles": {
     "uiview-position": [
       "Pod/Assets/*.png"
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "Obj",
+      "source_files": [
+        "Pod/Classes/*",
+        "*.{h,m}"
+      ],
+      "exclude_files": [
+        "Pod/Classes/Swift/*",
+        "*.swift"
+      ]
+    },
+    {
+      "name": "Swift",
+      "platforms": {
+        "ios": "8.0"
+      },
+      "source_files": [
+        "Pod/Classes/Swift/*",
+        "*.swift"
+      ]
+    }
+  ]
 }

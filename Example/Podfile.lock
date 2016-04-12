@@ -1,5 +1,7 @@
 PODS:
-  - uiview-position (0.1.0)
+  - uiview-position (0.1.0):
+    - uiview-position/Obj (= 0.1.0)
+  - uiview-position/Obj (0.1.0)
 
 DEPENDENCIES:
   - uiview-position (from `../`)
@@ -9,6 +11,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  uiview-position: 8ff50b47f39d59fa8caad0ebd2a6849a76691cbb
+  uiview-position: 260c28b924065d930b6e8b5531829873ec5de633
 
 COCOAPODS: 0.39.0
