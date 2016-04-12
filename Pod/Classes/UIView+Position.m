@@ -280,9 +280,7 @@
 }
 
 - (void)setOwnCenterX:(CGFloat)ownCenterX {
-    CGRect bounds = self.bounds;
-    bounds.origin.x = ownCenterX;
-    self.bounds = bounds;
+    self.center = CGPointMake(ownCenterX, self.ownCenterY);
 }
 
 
@@ -291,9 +289,7 @@
 }
 
 - (void)setOwnCenterY:(CGFloat)ownCenterY {
-    CGRect bounds = self.bounds;
-    bounds.origin.y = ownCenterY;
-    self.bounds = bounds;
+    self.center = CGPointMake(self.ownCenterX, ownCenterY);
 }
 
 
@@ -314,7 +310,7 @@
 
 - (void)setOwnRight:(CGFloat)ownRight {
     CGRect bounds = self.bounds;
-    bounds.size.width = ownRight;
+    bounds.origin.x = ownRight - self.boundsWidth;
     self.bounds = bounds;
 }
 
@@ -336,7 +332,7 @@
 
 - (void)setOwnBottom:(CGFloat)ownBottom {
     CGRect bounds = self.bounds;
-    bounds.size.height = ownBottom;
+    bounds.origin.y = ownBottom - self.boundsHeight;
     self.bounds = bounds;
 }
 
@@ -423,17 +419,11 @@
 #pragma mark - Flooring/Ceiling
 
 - (CGRect)flooredFrame {
-    CGRect flooredFrame = self.frame;
-    flooredFrame.origin = self.flooredFrameOrigin;
-    flooredFrame.size   = self.flooredFrameSize;
-    return flooredFrame;
+    return CGRectFloored(self.frame);
 }
 
 - (CGRect)ceiledFrame {
-    CGRect ceiledFrame = self.frame;
-    ceiledFrame.origin = self.ceiledFrameOrigin;
-    ceiledFrame.size   = self.ceiledFrameSize;
-    return ceiledFrame;
+    return CGRectCeiled(self.frame);
 }
 
 - (CGPoint)flooredFrameOrigin {
