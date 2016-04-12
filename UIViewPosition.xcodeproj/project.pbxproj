@@ -14,6 +14,15 @@
 		F816FC1F1CBBCDD60086B6B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F816FC1E1CBBCDD60086B6B6 /* Assets.xcassets */; };
 		F816FC221CBBCDD60086B6B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F816FC201CBBCDD60086B6B6 /* LaunchScreen.storyboard */; };
 		F816FC2B1CBBCDF70086B6B6 /* UIView+Position.m in Sources */ = {isa = PBXBuildFile; fileRef = F816FC2A1CBBCDF70086B6B6 /* UIView+Position.m */; };
+		F8352B601CBCE43000FC2F91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8352B5F1CBCE43000FC2F91 /* AppDelegate.swift */; };
+		F8352B621CBCE43000FC2F91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8352B611CBCE43000FC2F91 /* ViewController.swift */; };
+		F8352B651CBCE43000FC2F91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8352B631CBCE43000FC2F91 /* Main.storyboard */; };
+		F8352B671CBCE43000FC2F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8352B661CBCE43000FC2F91 /* Assets.xcassets */; };
+		F8352B6A1CBCE43000FC2F91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8352B681CBCE43000FC2F91 /* LaunchScreen.storyboard */; };
+		F8352B701CBCE44400FC2F91 /* UIViewPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8352B6F1CBCE44400FC2F91 /* UIViewPosition.swift */; };
+		F8AC68AD1CBCF27A00F3A7E3 /* CGPointRounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC68AC1CBCF27A00F3A7E3 /* CGPointRounding.swift */; };
+		F8AC68AF1CBCF6CE00F3A7E3 /* CGSizeRounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC68AE1CBCF6CE00F3A7E3 /* CGSizeRounding.swift */; };
+		F8AC68B11CBCF75D00F3A7E3 /* CGRectRounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC68B01CBCF75D00F3A7E3 /* CGRectRounding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,10 +38,28 @@
 		F816FC231CBBCDD60086B6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F816FC291CBBCDF70086B6B6 /* UIView+Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Position.h"; sourceTree = "<group>"; };
 		F816FC2A1CBBCDF70086B6B6 /* UIView+Position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Position.m"; sourceTree = "<group>"; };
+		F8352B5D1CBCE43000FC2F91 /* UIViewPositionSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIViewPositionSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8352B5F1CBCE43000FC2F91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8352B611CBCE43000FC2F91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8352B641CBCE43000FC2F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8352B661CBCE43000FC2F91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8352B691CBCE43000FC2F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8352B6B1CBCE43000FC2F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8352B6F1CBCE44400FC2F91 /* UIViewPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewPosition.swift; sourceTree = "<group>"; };
+		F8AC68AC1CBCF27A00F3A7E3 /* CGPointRounding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointRounding.swift; sourceTree = "<group>"; };
+		F8AC68AE1CBCF6CE00F3A7E3 /* CGSizeRounding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSizeRounding.swift; sourceTree = "<group>"; };
+		F8AC68B01CBCF75D00F3A7E3 /* CGRectRounding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRectRounding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F816FC0C1CBBCDD60086B6B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8352B5A1CBCE43000FC2F91 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				F816FC111CBBCDD60086B6B6 /* UIViewPosition */,
+				F8352B5E1CBCE43000FC2F91 /* UIViewPositionSwift */,
 				F816FC101CBBCDD60086B6B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				F816FC0F1CBBCDD60086B6B6 /* UIViewPosition.app */,
+				F8352B5D1CBCE43000FC2F91 /* UIViewPositionSwift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +113,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F8352B5E1CBCE43000FC2F91 /* UIViewPositionSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F8352B5F1CBCE43000FC2F91 /* AppDelegate.swift */,
+				F8352B611CBCE43000FC2F91 /* ViewController.swift */,
+				F8352B631CBCE43000FC2F91 /* Main.storyboard */,
+				F8352B661CBCE43000FC2F91 /* Assets.xcassets */,
+				F8352B681CBCE43000FC2F91 /* LaunchScreen.storyboard */,
+				F8352B6B1CBCE43000FC2F91 /* Info.plist */,
+				F8352B6F1CBCE44400FC2F91 /* UIViewPosition.swift */,
+				F8AC68AC1CBCF27A00F3A7E3 /* CGPointRounding.swift */,
+				F8AC68AE1CBCF6CE00F3A7E3 /* CGSizeRounding.swift */,
+				F8AC68B01CBCF75D00F3A7E3 /* CGRectRounding.swift */,
+			);
+			path = UIViewPositionSwift;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -104,16 +150,37 @@
 			productReference = F816FC0F1CBBCDD60086B6B6 /* UIViewPosition.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F8352B5C1CBCE43000FC2F91 /* UIViewPositionSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8352B6E1CBCE43000FC2F91 /* Build configuration list for PBXNativeTarget "UIViewPositionSwift" */;
+			buildPhases = (
+				F8352B591CBCE43000FC2F91 /* Sources */,
+				F8352B5A1CBCE43000FC2F91 /* Frameworks */,
+				F8352B5B1CBCE43000FC2F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIViewPositionSwift;
+			productName = UIViewPositionSwift;
+			productReference = F8352B5D1CBCE43000FC2F91 /* UIViewPositionSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F816FC071CBBCDD60086B6B6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "AbZorba Games";
 				TargetAttributes = {
 					F816FC0E1CBBCDD60086B6B6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F8352B5C1CBCE43000FC2F91 = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
@@ -132,6 +199,7 @@
 			projectRoot = "";
 			targets = (
 				F816FC0E1CBBCDD60086B6B6 /* UIViewPosition */,
+				F8352B5C1CBCE43000FC2F91 /* UIViewPositionSwift */,
 			);
 		};
 /* End PBXProject section */
@@ -147,6 +215,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8352B5B1CBCE43000FC2F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8352B6A1CBCE43000FC2F91 /* LaunchScreen.storyboard in Resources */,
+				F8352B671CBCE43000FC2F91 /* Assets.xcassets in Resources */,
+				F8352B651CBCE43000FC2F91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -158,6 +236,19 @@
 				F816FC2B1CBBCDF70086B6B6 /* UIView+Position.m in Sources */,
 				F816FC171CBBCDD60086B6B6 /* AppDelegate.m in Sources */,
 				F816FC141CBBCDD60086B6B6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8352B591CBCE43000FC2F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8352B701CBCE44400FC2F91 /* UIViewPosition.swift in Sources */,
+				F8AC68B11CBCF75D00F3A7E3 /* CGRectRounding.swift in Sources */,
+				F8352B621CBCE43000FC2F91 /* ViewController.swift in Sources */,
+				F8AC68AD1CBCF27A00F3A7E3 /* CGPointRounding.swift in Sources */,
+				F8AC68AF1CBCF6CE00F3A7E3 /* CGSizeRounding.swift in Sources */,
+				F8352B601CBCE43000FC2F91 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +267,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				F816FC211CBBCDD60086B6B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F8352B631CBCE43000FC2F91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8352B641CBCE43000FC2F91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8352B681CBCE43000FC2F91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8352B691CBCE43000FC2F91 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -289,6 +396,29 @@
 			};
 			name = Release;
 		};
+		F8352B6C1CBCE43000FC2F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIViewPositionSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abzorbagames.UIViewPositionSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8352B6D1CBCE43000FC2F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIViewPositionSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abzorbagames.UIViewPositionSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -306,6 +436,15 @@
 			buildConfigurations = (
 				F816FC271CBBCDD60086B6B6 /* Debug */,
 				F816FC281CBBCDD60086B6B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8352B6E1CBCE43000FC2F91 /* Build configuration list for PBXNativeTarget "UIViewPositionSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8352B6C1CBCE43000FC2F91 /* Debug */,
+				F8352B6D1CBCE43000FC2F91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
