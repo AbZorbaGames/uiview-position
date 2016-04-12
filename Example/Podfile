@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'uiview-position_Example', :exclusive => true do
+  pod 'uiview-position', :path => '../'
+end
+
+target 'uiview-position_Tests', :exclusive => true do
+  pod 'uiview-position', :path => '../'
+
+  
+end
